@@ -1,3 +1,37 @@
 .modal {
     background: #c6d0ff7a;
 }
+
+.phone-select {
+    max-width: 150px;
+}
+
+.phone-input {
+    min-width: 150px !important;
+    
+}
+
+.option-radio {
+    position: absolute;
+    opacity: 0;
+    height: 0;
+    width: 0;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+.logo-image {
+    width: 135px !important;
+    height: 90px !important;
+    border: 1px solid rgb(234, 238, 241);
+    border-radius: 10px;
+    box-shadow: 0 30px 40px rgba(0,0,0,.1);
+    cursor: pointer;
+}
+
+.selected{
+    border: 2px solid #4f46e5 !important;
+    box-shadow: 0 0 0 4px rgba(79, 70, 229, .2) !important;
+}
